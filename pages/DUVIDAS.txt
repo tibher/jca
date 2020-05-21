@@ -1,0 +1,14 @@
+
+* A comissão somente é paga quando há o pagamento de uma parcela?
+	Ex.: Vendedor fez uma venda de R$ 100,00 e tem 10% de comissão (R$ 10).
+		Se for por parcela, o pagamento da comissão será de R$ 1,00 durante dez meses
+* Caso o cliente atrase uma parcela, essa comissão será paga?
+
+* Se tiver duas parcelas no mesmo mês, a compra é considerada à vista ou parcelada?
+
+
+-- O <13 Recibos.html> mostra o total de vendas diárias e o total de vendas. Recibos é onde estão as vendas
+-- O <8-6 VendasVendedores.html> apresenta o valor das vendas de todos os vendedores
+-- <16-3 VendasTipoPagamento> e <15-3 PagamentosResumo> (Rever para manter um só)
+-- O <15-3 PagamentosResumo> é o Recebimento. Recebimentos são pagamentos recebidos
+-- Indicadores e gráficos ficam para um segundo momento

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link href="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- DataTables Responsive CSS -->
+    <link href="../bower_components/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+		<div class="row" style="background-color:#000;">
+			<div class="col-xs-12 col-md-12" style="padding: 10px 50px;">
+				<a href="2 Dashboard.html" style="color:#fff;font-size: 20px;font-weight:bold;">JCA Modas</a>
+				<a href="1 Login.html" class="btn btn-danger pull-right">Sair</a>
+			</div>
+		</div>	
+		
+		<div class="row">
+			<iframe class="col-xs-12 col-md-3" src="menu.html" scrolling="no" height="900px" frameborder="0" align="center"></iframe>	
+
+            <div class="col-lg-12 col-md-8">
+				<br/>
+				<div class="table-responsive text-center" style="font-size: 12px;background-color: #eee;padding: 5px;">
+					<div class="col-md-12 col-xs-12">
+						PAGAMENTOS<small class="pull-right"><a href="15-5 PagamentosCategoriaResumo.html">RESUMO</a></small>
+					</div>
+				</div>
+				<div class="table-responsive text-center" style="font-size: 14px;background-color: #def54e;">
+					<div class="col-md-12 col-xs-12" style="padding-top: 10px;">
+						<small>12</small> JAN 20 - <small>5</small> MAR 20 
+					</div>
+				</div>
+				<div class="table-responsive text-center" style="font-size: 24px;background-color: #def54e;">
+					<div class="col-md-12 col-xs-12">
+						<b style="color:red;">CARTÃO DE CRÉDITO</b>
+					</div>
+				</div>
+				
+				<div class="table-responsive text-center" style="font-size: 22px;background-color: #def54e">
+					<div class="col-md-12 col-xs-12" style="padding: 5px;">
+						<b><small>R$</small> 2.250,50</b>
+					</div>
+					<div class="col-md-3 col-xs-3 text-right" style="padding-bottom: 5px;font-size: 12px;">
+						<b><small>À VISTA</small></b>
+					</div>	
+					<div class="col-md-3 col-xs-3 text-left" style="padding-bottom: 5px;font-size: 12px;">
+						<b><small>R$</small> 1.150,50</b>
+					</div>	
+					<div class="col-md-3 col-xs-3 text-right" style="padding-bottom: 5px;font-size: 12px;">
+						<b><small>PARCELADO</small></b>
+					</div>	
+					<div class="col-md-3 col-xs-3 text-left" style="padding-bottom: 5px;font-size: 12px;">
+						<b><small>R$</small> 850,50</b>
+					</div>	
+						
+				</div>	
+				<div class="table-responsive" style="font-size: 12px;">
+					<table class="table table-striped table-bordered table-hover" id="dataTables-example">
+						<thead>
+							<tr>
+								<th>Pago em</th>
+								<th>Valor</th>
+								<th>Origem</th>
+								<th>Status</th>
+								<th></th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>10/01/2016</td>
+								<td>R$ 13,50</td>
+								<td>VISA</td>
+								<td>Pagamento Parcial</td>
+								<td><a href="15-2 Pagamento.html" class="small">Editar</a></td>
+								<td><a href="#" class="small">Excluir</a></td>
+							</tr>
+							<tr>
+								<td>23/02/2016</td>
+								<td>R$ 138,50</td>
+								<td>VISA</td>
+								<td>Pagamento Parcial</td>
+								<td><a href="15-2 Pagamento.html" class="small">Editar</a></td>
+								<td><a href="#" class="small">Excluir</a></td>
+							</tr>
+							<tr>
+								<td>02/03/2016</td>
+								<td>R$ 12,00</td>
+								<td>MasterCard</td>
+								<td>Quitado</td>
+								<td><a href="15-2 Pagamento.html" class="small">Editar</a></td>
+								<td><a href="#" class="small">Excluir</a></td>
+							</tr>
+						</tbody>
+					</table>
+
+			   </div>
+			
+			</div>
+       
+			
+				
+        </div>
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="../bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+    <script>
+    $(document).ready(function() {
+        $('#dataTables-example').DataTable({
+                responsive: true
+        });
+    });
+    </script>
+
+</body>
+
+</html>
