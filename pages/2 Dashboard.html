@@ -74,7 +74,11 @@
 							
 						<div class="row">
 							<div class="col-xs-12 col-md-12">
-								<p style="color: #d9534f;">João José está completando 45 anos</p>
+								<p style="color: #d9534f;">
+									<a href="https://wa.me/5528998812058?text=Parabens%20pelo%20seu%20aniversario%20Diego!%20Muitas%20felicidades%20no%20seu%20dia">
+									João José está completando 45 anos
+									</a>
+								</p>
 								<p style="color: #d9534f;">Maria Fonseca está de aniversário hoje</p>
 							</div>
 						</div>
@@ -82,20 +86,103 @@
 						<hr style="margin:8px;border-color:red;"/>
 						<strong style="display: block;padding: 10px;font-size: 18px;" class="text-center">CAIXA
 							<strong class="pull-left" style="color: #d9534f"><small style="font-size: 9px;">R$</small> 455,00<p style="font-size: 9px;">Em Caixa</p></strong>
-							<a href="#" class="pull-right btn btn-success btn-xs">PAGAR</a>
 						</strong>
 						<hr style="margin:13px;border-color:red;"/>
 						
 						<div class="row">
 							<div class="col-xs-12 col-md-12">
-										-Vencimentos da Semana
-						-Folhas de Pagamento do mês atual Vencendo na Semana
+							- Separar recibos de vendas (OK - fazer via interface)
+							- Lançamento manual de recibos (Verificar importação CSV)
+								
+								<hr style="margin:8px;border-color:red;"/>
+								<strong style="display: block;margin-bottom: 10px;font-size: 18px;" class="text-center">SAÍDAS
+									<a href="18-1-2 GastosAPagar.html" class="pull-right btn btn-success btn-xs">PAGAR</a>
+								</strong>
 						
-						RELATÓRIOS: Prazo x Recebimento 2020 (ANALISAR)
-									<a href="#" style="display: block;padding: 5px 30px;color: red;">Retiradas</a>	
-								<a href="#" style="display: block;padding: 5px 30px;color: red;">Gastos Fixos</a>
-								<a href="#" style="display: block;padding: 5px 30px;color: red;">Gastos Detalhados</a>
-							
+								<hr style="margin:13px;border-color:red;"/>
+						
+								<strong style="display: block;margin-bottom: 10px;">VENCIMENTOS DA SEMANA</strong>
+								<div class="table-responsive" style="font-size: 12px;">
+									<table class="table table-striped table-bordered table-hover" id="dataTables-example">
+										<thead>
+											<tr>
+												<th>Vencimento Em</th>
+												<th>Valor à pagar</th>
+												<th><a href="18-4-2 GastosPorCategoria.html">Categoria <i class="fa fa-external-link"></i></a></th>
+												<th>Detalhes</th>
+												<th></th>
+												<th></th>
+												<th></th>
+											</tr>
+										</thead>
+										<tbody style="font-size: 11px;">
+											<tr>
+												<td>10/01/2020</td>	
+												<td><b>R$ 350,00</b></td>
+												<td><a href="18-4 GastosCategoria.html">Alimentação</a></td>
+												<td><small>Aqui é a coluna referência</small></td>
+												<td>
+													<a href="15-2-3 PagamentoGasto.html">PAGAR</a>
+												</td>
+												<td>
+													<a href="18-1 Gasto.html" class="small">Editar</a><br/>
+												</td>
+												<td>
+													<a href="#" class="small">Excluir</a>
+												</td>
+											</tr>
+											<tr>
+												<td>12/02/2020</td>	
+												<td><b>R$ 50,00</b> 1/5</td>
+												<td><a href="18-4 GastosCategoria.html">Saúde</a></td>
+												<td><small>Pedido por Telefone</small></td>
+												<td>
+													<a href="15-2-3 PagamentoGasto.html">PAGAR</a>
+												</td>
+												<td>
+													<a href="18-1 Gasto.html" class="small">Editar</a><br/>
+												</td>
+												<td>
+													<a href="#" class="small">Excluir</a>
+												</td>
+											</tr>
+											<tr>
+												<td>12/03/2020</td>
+												<td><b>R$ 150,00</b> 2/3
+													<br/><small>Total: R$ 200</small>
+												</td>								
+												<td><a href="18-4 GastosCategoria.html">Pró labore</a></td>
+												<td></td>
+												<td>
+													<a href="15-2-3 PagamentoGasto.html">PAGAR</a>
+												</td>
+												<td>
+													<a href="18-1 Gasto.html" class="small">Editar</a><br/>
+												</td>
+												<td>
+													<a href="#" class="small">Excluir</a>
+												</td>
+											</tr>
+											<tr>
+												<td>22/04/2020</td>
+												<td><b>R$ 350,00</b></td>							
+												<td><a href="18-4 GastosCategoria.html">Compras</a></td>
+												<td></td>
+												<td>
+													<a href="15-2-3 PagamentoGasto.html">PAGAR</a>
+												</td>
+												<td>
+													<a href="18-1 Gasto.html" class="small">Editar</a><br/>
+												</td>
+												<td>
+													<a href="#" class="small">Excluir</a>
+												</td>
+											</tr>
+										</tbody>	
+									</table>
+
+							   </div>
+								
 							</div>
 						</div>
 						
@@ -132,7 +219,7 @@
 										<td></td>
 										<td>10%</td>
 										<td style="font-size: 10px;">Desconto de primeira compra</td>
-										<td><a href="15-2 Pagamento.html" class="small">PAGAR</a></td>
+										<td><a href="15-2 Pagamento.html" class="small">RECEBER</a></td>
 										<td><a href="14-2 Parcela.html" class="small">Editar</a></td>
 										<td><a href="#" class="small">Excluir</a></td>
 									</tr>
@@ -166,7 +253,7 @@
 										<td></td>
 										<td>10%</td>
 										<td style="font-size: 10px;">Desconto de primeira compra</td>
-										<td><a href="15-2 Pagamento.html" class="small">PAGAR</a></td>
+										<td><a href="15-2 Pagamento.html" class="small">RECEBER</a></td>
 										<td><a href="14-2 Parcela.html" class="small">Editar</a></td>
 										<td><a href="#" class="small">Excluir</a></td>
 									</tr>
@@ -178,7 +265,7 @@
 										<td>85%</td>
 										<td></td>
 										<td style="font-size: 10px;">Multa por atraso</td>
-										<td><a href="15-2 Pagamento.html" class="small">PAGAR</a></td>
+										<td><a href="15-2 Pagamento.html" class="small">RECEBER</a></td>
 										<td><a href="14-2 Parcela.html" class="small">Editar</a></td>
 										<td><a href="#" class="small">Excluir</a></td>
 									</tr>
@@ -190,7 +277,7 @@
 										<td></td>
 										<td></td>
 										<td style="font-size: 10px;"></td>
-										<td><a href="15-2 Pagamento.html" class="small">PAGAR</a></td>
+										<td><a href="15-2 Pagamento.html" class="small">RECEBER</a></td>
 										<td><a href="14-2 Parcela.html" class="small">Editar</a></td>
 										<td><a href="#" class="small">Excluir</a></td>
 									</tr>
@@ -202,7 +289,7 @@
 										<td></td>
 										<td></td>
 										<td style="font-size: 10px;">Juros acima de 3 parcelas</td>
-										<td><a href="15-2 Pagamento.html" class="small">PAGAR</a></td>
+										<td><a href="15-2 Pagamento.html" class="small">RECEBER</a></td>
 										<td><a href="14-2 Parcela.html" class="small">Editar</a></td>
 										<td><a href="#" class="small">Excluir</a></td>
 									</tr>
